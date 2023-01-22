@@ -1,0 +1,181 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Concert One", cursive;
+}
+#heading:hover {
+  color: aqua;
+  font-size: x-large;
+}
+.heading_and_nav_bar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  flex-wrap: wrap;
+}   
+@media (max-width: 500px) {
+  .heading_and_nav_bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav_bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.nav_bar {
+  display: flex;
+  padding-right: 100px;
+  flex-wrap: wrap;
+}
+span {
+  font-size: larger;
+  padding: 10px;
+  padding-left: 50px;
+}
+span:hover {
+  font-size: 23px;
+  padding: 10px;
+  padding-left: 50px;
+  color: lime;
+  text-decoration: dashed underline;
+}
+#computer_img {
+  width: 100%;
+}
+#about_me_title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+  color: white;
+}
+#about_me_title:hover {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+  font-size: 30px;
+  color: orange;
+  text-decoration: dashed underline;
+}
+.about_me {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+@media (max-width: 500px) {
+  .about_me {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+  }
+  #about_me_description {
+    min-width: 100%;
+  }
+  .about_me_text {
+    border: 2px solid orange;
+    padding: 1%;
+    color: white;
+  }
+  #periodic_table_img {
+    display: flex;
+    min-width: 100%;
+  }
+}
+#periodic_table_img {
+  width: 20%;
+}
+#about_me_heading {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+#about_me_description {
+  font-size: larger;
+  color: white;
+}
+.about_me_text {
+  border: 2px solid orange;
+  padding: 1%;
+  margin-left: 3%;
+  color: white;
+}
+.extra_img_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+hr {
+  width: 40%;
+  border: 1px solid orange;
+  background-color: orange;
+  margin-top: 27px;
+}
+#image_section_header {
+  padding-bottom: 6px;
+  color: white;
+}
+#image_section_header:hover {
+  padding-bottom: 6px;
+  font-size: larger;
+  color: lightgoldenrodyellow;
+}
+.images {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #img_in_image_section {
+    min-width: 90%;
+  }
+}
+#img_in_image_section {
+  width: 22%;
+}
+#about_user_header:hover {
+  color: skyblue;
+  font-size: 30px;
+}
+.about_user {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+form {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.about_user_form {
+  background-image: url(https://th.bing.com/th/id/OIP.UMgXvcG7dagM6zztcqGHNAHaEK?pid=ImgDet&rs=1);
+  padding: 2% 8% 2% 8%;
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+}
+textarea {
+  display: flex;
+  align-self: center;
+  width: 250px;
+}
+#submit {
+  background-color: skyblue;
+  border-radius: 12px;
+}
+#footer {
+  display: flex;
+  justify-content: flex-end;
+  font-size: xx-small;
+  font-family: "Carter One", cursive;
+}
+@media (max-width: 500px) {
+  #footer {
+    display: flex;
+    justify-content: center;
+  }
+}
