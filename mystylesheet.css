@@ -34,6 +34,7 @@ span {
   font-size: x-large;
   height: fit-content;
   margin: 15px;
+  border: 5px solid red;
 }
 span:hover {
   font-size: xx-large;
@@ -165,7 +166,9 @@ form {
   flex-direction: column;
 }
 .about_user_form {
-  background-image: url("rainbow-paint-background-475x415.png");
+  /*background-image: url("rainbow-paint-background-475x415.png");*/
+  background-image: url('rainbow-paint-background.jpg');
+  background-size:cover;
   padding: 2% 8% 2% 8%;
   color: rgb(255, 255, 255);
   border-radius: 25px;
